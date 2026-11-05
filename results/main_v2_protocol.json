@@ -1,0 +1,998 @@
+{
+  "split": "test",
+  "repeat": 0,
+  "tasks": [
+    {
+      "id": "test-normal-00",
+      "family": "normal",
+      "split": "test",
+      "index": 0,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-100\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-100",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-01",
+      "family": "normal",
+      "split": "test",
+      "index": 1,
+      "actionable": true,
+      "new_content": "# 热成像仪校准\n设备：FX-101\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-101",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-02",
+      "family": "normal",
+      "split": "test",
+      "index": 2,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-102\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-102",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-03",
+      "family": "normal",
+      "split": "test",
+      "index": 3,
+      "actionable": true,
+      "new_content": "# 数据采集器升级\n设备：FX-103\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-103",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-04",
+      "family": "normal",
+      "split": "test",
+      "index": 4,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-104\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-104",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-05",
+      "family": "normal",
+      "split": "test",
+      "index": 5,
+      "actionable": true,
+      "new_content": "# 压力传感器归零\n设备：FX-105\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-105",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-06",
+      "family": "normal",
+      "split": "test",
+      "index": 6,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-106\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-106",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-07",
+      "family": "normal",
+      "split": "test",
+      "index": 7,
+      "actionable": true,
+      "new_content": "# 热成像仪校准\n设备：FX-107\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-107",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-08",
+      "family": "normal",
+      "split": "test",
+      "index": 8,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-108\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-108",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-09",
+      "family": "normal",
+      "split": "test",
+      "index": 9,
+      "actionable": true,
+      "new_content": "# 数据采集器升级\n设备：FX-109\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-109",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-10",
+      "family": "normal",
+      "split": "test",
+      "index": 10,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-110\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-110",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-normal-11",
+      "family": "normal",
+      "split": "test",
+      "index": 11,
+      "actionable": true,
+      "new_content": "# 压力传感器归零\n设备：FX-111\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-111",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-00",
+      "family": "clarification",
+      "split": "test",
+      "index": 0,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-100\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "device_model": "FX-100"
+      },
+      "device": "FX-100",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-01",
+      "family": "clarification",
+      "split": "test",
+      "index": 1,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-101\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-101",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-02",
+      "family": "clarification",
+      "split": "test",
+      "index": 2,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-102\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "device_model": "FX-102"
+      },
+      "device": "FX-102",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-03",
+      "family": "clarification",
+      "split": "test",
+      "index": 3,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-103\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-103",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-04",
+      "family": "clarification",
+      "split": "test",
+      "index": 4,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-104\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "device_model": "FX-104"
+      },
+      "device": "FX-104",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-05",
+      "family": "clarification",
+      "split": "test",
+      "index": 5,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-105\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-105",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-06",
+      "family": "clarification",
+      "split": "test",
+      "index": 6,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-106\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "device_model": "FX-106"
+      },
+      "device": "FX-106",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-07",
+      "family": "clarification",
+      "split": "test",
+      "index": 7,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-107\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-107",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-08",
+      "family": "clarification",
+      "split": "test",
+      "index": 8,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-108\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "device_model": "FX-108"
+      },
+      "device": "FX-108",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-09",
+      "family": "clarification",
+      "split": "test",
+      "index": 9,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-109\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-109",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-10",
+      "family": "clarification",
+      "split": "test",
+      "index": 10,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-110\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "device_model": "FX-110"
+      },
+      "device": "FX-110",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-clarification-11",
+      "family": "clarification",
+      "split": "test",
+      "index": 11,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-111\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-111",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-00",
+      "family": "approval",
+      "split": "test",
+      "index": 0,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-100\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-100",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-01",
+      "family": "approval",
+      "split": "test",
+      "index": 1,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-101\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "reject"
+      },
+      "device": "FX-101",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-02",
+      "family": "approval",
+      "split": "test",
+      "index": 2,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-102\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-102",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-03",
+      "family": "approval",
+      "split": "test",
+      "index": 3,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-103\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "reject"
+      },
+      "device": "FX-103",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-04",
+      "family": "approval",
+      "split": "test",
+      "index": 4,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-104\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-104",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-05",
+      "family": "approval",
+      "split": "test",
+      "index": 5,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-105\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "reject"
+      },
+      "device": "FX-105",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-06",
+      "family": "approval",
+      "split": "test",
+      "index": 6,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-106\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-106",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-07",
+      "family": "approval",
+      "split": "test",
+      "index": 7,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-107\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "reject"
+      },
+      "device": "FX-107",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-08",
+      "family": "approval",
+      "split": "test",
+      "index": 8,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-108\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-108",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-09",
+      "family": "approval",
+      "split": "test",
+      "index": 9,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-109\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "reject"
+      },
+      "device": "FX-109",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-10",
+      "family": "approval",
+      "split": "test",
+      "index": 10,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-110\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-110",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-approval-11",
+      "family": "approval",
+      "split": "test",
+      "index": 11,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-111\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "reject"
+      },
+      "device": "FX-111",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-00",
+      "family": "scope",
+      "split": "test",
+      "index": 0,
+      "actionable": false,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-100\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-100",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-01",
+      "family": "scope",
+      "split": "test",
+      "index": 1,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-101\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-101",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-02",
+      "family": "scope",
+      "split": "test",
+      "index": 2,
+      "actionable": false,
+      "new_content": "# 激光测距仪自检\n设备：FX-102\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-102",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-03",
+      "family": "scope",
+      "split": "test",
+      "index": 3,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-103\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-103",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-04",
+      "family": "scope",
+      "split": "test",
+      "index": 4,
+      "actionable": false,
+      "new_content": "# 定位终端同步\n设备：FX-104\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-104",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-05",
+      "family": "scope",
+      "split": "test",
+      "index": 5,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-105\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-105",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-06",
+      "family": "scope",
+      "split": "test",
+      "index": 6,
+      "actionable": false,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-106\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-106",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-07",
+      "family": "scope",
+      "split": "test",
+      "index": 7,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-107\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-107",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-08",
+      "family": "scope",
+      "split": "test",
+      "index": 8,
+      "actionable": false,
+      "new_content": "# 激光测距仪自检\n设备：FX-108\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-108",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-09",
+      "family": "scope",
+      "split": "test",
+      "index": 9,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-109\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-109",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-10",
+      "family": "scope",
+      "split": "test",
+      "index": 10,
+      "actionable": false,
+      "new_content": "# 定位终端同步\n设备：FX-110\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-110",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-scope-11",
+      "family": "scope",
+      "split": "test",
+      "index": 11,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-111\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve"
+      },
+      "device": "FX-111",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-00",
+      "family": "version",
+      "split": "test",
+      "index": 0,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-100\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-100",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-01",
+      "family": "version",
+      "split": "test",
+      "index": 1,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-101\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-101",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-02",
+      "family": "version",
+      "split": "test",
+      "index": 2,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-102\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-102",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-03",
+      "family": "version",
+      "split": "test",
+      "index": 3,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-103\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-103",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-04",
+      "family": "version",
+      "split": "test",
+      "index": 4,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-104\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-104",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-05",
+      "family": "version",
+      "split": "test",
+      "index": 5,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-105\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-105",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-06",
+      "family": "version",
+      "split": "test",
+      "index": 6,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-106\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-106",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-07",
+      "family": "version",
+      "split": "test",
+      "index": 7,
+      "actionable": false,
+      "new_content": "# 热成像仪校准\n设备：FX-107\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-107",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-08",
+      "family": "version",
+      "split": "test",
+      "index": 8,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-108\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-108",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-09",
+      "family": "version",
+      "split": "test",
+      "index": 9,
+      "actionable": false,
+      "new_content": "# 数据采集器升级\n设备：FX-109\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-109",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-10",
+      "family": "version",
+      "split": "test",
+      "index": 10,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-110\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-110",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-version-11",
+      "family": "version",
+      "split": "test",
+      "index": 11,
+      "actionable": false,
+      "new_content": "# 压力传感器归零\n设备：FX-111\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "expected_knowledge_version": 1
+      },
+      "device": "FX-111",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-00",
+      "family": "retry",
+      "split": "test",
+      "index": 0,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-100\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-100",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-01",
+      "family": "retry",
+      "split": "test",
+      "index": 1,
+      "actionable": true,
+      "new_content": "# 热成像仪校准\n设备：FX-101\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-101",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-02",
+      "family": "retry",
+      "split": "test",
+      "index": 2,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-102\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-102",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-03",
+      "family": "retry",
+      "split": "test",
+      "index": 3,
+      "actionable": true,
+      "new_content": "# 数据采集器升级\n设备：FX-103\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-103",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-04",
+      "family": "retry",
+      "split": "test",
+      "index": 4,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-104\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-104",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-05",
+      "family": "retry",
+      "split": "test",
+      "index": 5,
+      "actionable": true,
+      "new_content": "# 压力传感器归零\n设备：FX-105\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-105",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-06",
+      "family": "retry",
+      "split": "test",
+      "index": 6,
+      "actionable": true,
+      "new_content": "# 旋转扫描仪复位\n设备：FX-106\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-106",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-07",
+      "family": "retry",
+      "split": "test",
+      "index": 7,
+      "actionable": true,
+      "new_content": "# 热成像仪校准\n设备：FX-107\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-107",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-08",
+      "family": "retry",
+      "split": "test",
+      "index": 8,
+      "actionable": true,
+      "new_content": "# 激光测距仪自检\n设备：FX-108\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-108",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-09",
+      "family": "retry",
+      "split": "test",
+      "index": 9,
+      "actionable": true,
+      "new_content": "# 数据采集器升级\n设备：FX-109\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-109",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-10",
+      "family": "retry",
+      "split": "test",
+      "index": 10,
+      "actionable": true,
+      "new_content": "# 定位终端同步\n设备：FX-110\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-110",
+      "origin": "assistant_authored_controlled_business_task"
+    },
+    {
+      "id": "test-retry-11",
+      "family": "retry",
+      "split": "test",
+      "index": 11,
+      "actionable": true,
+      "new_content": "# 压力传感器归零\n设备：FX-111\n处理：断开采集任务，检查连接后执行自检；保留失败日志，失败时转人工。\n验收：自检通过后恢复采集。",
+      "policy": {
+        "approval": "approve",
+        "drop_knowledge_response_once": true
+      },
+      "device": "FX-111",
+      "origin": "assistant_authored_controlled_business_task"
+    }
+  ],
+  "arms": [
+    "W0",
+    "W1",
+    "W2"
+  ],
+  "primary_contrast": "W0 vs W1 raw/task tool granularity with identical full SOP; W1 vs W2 identical SOP bytes and task tools, full vs on-demand loading",
+  "blocked_scoring": "Unchanged state plus observed task-specific interaction and JSON blocked disposition/reason; bounded structured-status check, not open-ended natural-language truth validation",
+  "limits": {
+    "tools": 40,
+    "input_tokens": 60000,
+    "output_tokens": 8000,
+    "wall_seconds": 240
+  },
+  "model": "deepseek-flash",
+  "source": {
+    "caseflow_eval.py": "414481c83d595e3f8a0fe1b242974e1d34ec38e4cd8489b36c2d5e94f5454bfd",
+    "caseflow.py": "63b11eb8b8f98d850227d0b1cdc95525e7e4a6393996c8fee36e4ab59a58eed1",
+    "caseflow_mcp.py": "7f436dc40e9680086432954a01c2b04bc8145934477001bd23bb5b1453262d55",
+    "caseflow_backend.py": "e137bba81a9be775831c9efdd0ba964515ce5fe67d231244103ca8d4eccc1360",
+    "agent_loop.py": "636f76c1af7652cc7d345239f841bb0fb2df2aa30231991c706f206f95605dc5",
+    "model.py": "13d70ce6a107fdfe591465e56774b5f56d2686324d3f929735cda4886857df20",
+    "common.py": "cef9f96321bd3c961b572f2a45bde8b51902ef50c461e6f93ea4cd9a84682bd3",
+    "caseflow_runtime.py": "0dc3a8b8051be9942a540e226cdd65caae6483f55835e8f3d0b737a81944f242"
+  },
+  "synthetic_scope": "6 task families, not 72 independently discovered production workflows; no real user acceptance or time savings",
+  "protocol_sha256": "64634190ebe5d4add3ca6088610a5acf3d1f4f8d7e475b9c59e2c92e88888d89"
+}

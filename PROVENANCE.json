@@ -1,0 +1,174 @@
+{
+  "original_commit": "f6818662fdf4d845732545c34b63776a3960b694",
+  "packaged_on": "2026-11-05",
+  "project": "CaseFlow",
+  "namespace": "caseflow_agent",
+  "files": [
+    {
+      "source": "src/outcomes/__init__.py",
+      "source_sha256": "28ba10bcc4c88dcd5b990f406b750d280561e022c9aade88ad67e40c94dfdd95",
+      "destination": "src/caseflow_agent/__init__.py",
+      "published_sha256": "28ba10bcc4c88dcd5b990f406b750d280561e022c9aade88ad67e40c94dfdd95"
+    },
+    {
+      "source": "src/outcomes/common.py",
+      "source_sha256": "1a83586a32e6b27d01bb12dd58e99a162c2009f01c90fb6308822356beb68165",
+      "destination": "src/caseflow_agent/common.py",
+      "published_sha256": "1a83586a32e6b27d01bb12dd58e99a162c2009f01c90fb6308822356beb68165"
+    },
+    {
+      "source": "src/outcomes/model.py",
+      "source_sha256": "82ec7a0901449e200059529fff7a284363c52c94ba5462d75ff9ab139e4162cf",
+      "destination": "src/caseflow_agent/model.py",
+      "published_sha256": "82ec7a0901449e200059529fff7a284363c52c94ba5462d75ff9ab139e4162cf"
+    },
+    {
+      "source": "src/outcomes/agent_loop.py",
+      "source_sha256": "4f1e3f5461fa9093c550dcaa26eac78a087ee59258309aecebc1bd5607465635",
+      "destination": "src/caseflow_agent/agent_loop.py",
+      "published_sha256": "4f1e3f5461fa9093c550dcaa26eac78a087ee59258309aecebc1bd5607465635"
+    },
+    {
+      "source": "src/outcomes/caseflow.py",
+      "source_sha256": "8f82902279edc8e6649db5f3c4057f846cfcec615e1abe14aaac18985d081138",
+      "destination": "src/caseflow_agent/caseflow.py",
+      "published_sha256": "8f82902279edc8e6649db5f3c4057f846cfcec615e1abe14aaac18985d081138"
+    },
+    {
+      "source": "src/outcomes/caseflow_backend.py",
+      "source_sha256": "178c691d090efda6fcffb07fbe6c24160468b59d23f51beb9fb82931212e735e",
+      "destination": "src/caseflow_agent/caseflow_backend.py",
+      "published_sha256": "178c691d090efda6fcffb07fbe6c24160468b59d23f51beb9fb82931212e735e"
+    },
+    {
+      "source": "src/outcomes/caseflow_runtime.py",
+      "source_sha256": "4e092bf41d01ae44e76b84bfbd47c112f331f80929c744015b8dccf707b3fea9",
+      "destination": "src/caseflow_agent/caseflow_runtime.py",
+      "published_sha256": "4f2c1dd23d011f6aaf85d9a9f8ce4132a567b850b979008f9881e675560620e5"
+    },
+    {
+      "source": "src/outcomes/caseflow_mcp.py",
+      "source_sha256": "478d68908ae0f249a6aaa8f79f8cb4d4e411200ff29bbeb2200cf2f564e11c66",
+      "destination": "src/caseflow_agent/caseflow_mcp.py",
+      "published_sha256": "478d68908ae0f249a6aaa8f79f8cb4d4e411200ff29bbeb2200cf2f564e11c66"
+    },
+    {
+      "source": "src/outcomes/caseflow_eval.py",
+      "source_sha256": "054dd0ea22a2692ad1b24a8d5b10b09b3d587de3c3ba2a79f27289f941158023",
+      "destination": "src/caseflow_agent/caseflow_eval.py",
+      "published_sha256": "1dbd85c88777cf8ac9dd82892e15266a2ccd07c613da72d35f5589c1aea14193"
+    },
+    {
+      "source": "src/outcomes/caseflow_faults.py",
+      "source_sha256": "81e5b9a06c9d2833164260b2fe9935886a27659ba5f4204e2e0b9724ff852b04",
+      "destination": "src/caseflow_agent/caseflow_faults.py",
+      "published_sha256": "18807f3792bf2e04ca22a4bbe7abc8ad60909c28c06ef62703d15f29396622d8"
+    },
+    {
+      "source": "src/outcomes/caseflow_fault_worker.py",
+      "source_sha256": "5bd39bdd56af1e3c9c567af5a6658b1e4b8cb1e1571accfdd64c65c7c219069d",
+      "destination": "src/caseflow_agent/caseflow_fault_worker.py",
+      "published_sha256": "5bd39bdd56af1e3c9c567af5a6658b1e4b8cb1e1571accfdd64c65c7c219069d"
+    },
+    {
+      "source": "upstream/notebook/LICENSE",
+      "source_sha256": "d5ab1846393ee8143afc2b5c649787031e804d978d50698df8252f91eb242744",
+      "destination": "upstream/notebook/LICENSE",
+      "published_sha256": "d5ab1846393ee8143afc2b5c649787031e804d978d50698df8252f91eb242744"
+    },
+    {
+      "source": "upstream/notebook/apps/__init__.py",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "destination": "upstream/notebook/apps/__init__.py",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "upstream/notebook/apps/api/__init__.py",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "destination": "upstream/notebook/apps/api/__init__.py",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "upstream/notebook/apps/api/app/__init__.py",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "destination": "upstream/notebook/apps/api/app/__init__.py",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "upstream/notebook/apps/api/app/models/__init__.py",
+      "source_sha256": "1c0b595324ca4ae08bdc0700363439592e89015e76d56c5756895f7a23efe4b8",
+      "destination": "upstream/notebook/apps/api/app/models/__init__.py",
+      "published_sha256": "1c0b595324ca4ae08bdc0700363439592e89015e76d56c5756895f7a23efe4b8"
+    },
+    {
+      "source": "upstream/notebook/apps/api/app/models/base.py",
+      "source_sha256": "d306c7090adeecda5d97988d0541edd1735fde3ed2510aa9fea844f7020b47bd",
+      "destination": "upstream/notebook/apps/api/app/models/base.py",
+      "published_sha256": "d306c7090adeecda5d97988d0541edd1735fde3ed2510aa9fea844f7020b47bd"
+    },
+    {
+      "source": "upstream/notebook/apps/api/app/models/knowledge.py",
+      "source_sha256": "9e2f742fc2855bcf067720f1adf8ac944c9ed7892d7742c7a46e2ae25a3f85e2",
+      "destination": "upstream/notebook/apps/api/app/models/knowledge.py",
+      "published_sha256": "9e2f742fc2855bcf067720f1adf8ac944c9ed7892d7742c7a46e2ae25a3f85e2"
+    },
+    {
+      "source": "upstream/notebook/apps/api/app/models/types.py",
+      "source_sha256": "65d610a5e873ab8c8d1ab96168736fb8883942e1a125c54ce2c433d02a599042",
+      "destination": "upstream/notebook/apps/api/app/models/types.py",
+      "published_sha256": "65d610a5e873ab8c8d1ab96168736fb8883942e1a125c54ce2c433d02a599042"
+    },
+    {
+      "source": "upstream/notebook/apps/api/app/services/__init__.py",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "destination": "upstream/notebook/apps/api/app/services/__init__.py",
+      "published_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "source": "upstream/notebook/apps/api/app/services/chunking.py",
+      "source_sha256": "7b641ef5d85b80559833a9eab2159e6c2f3bf732e216212461a3a7fc0cc731ed",
+      "destination": "upstream/notebook/apps/api/app/services/chunking.py",
+      "published_sha256": "7b641ef5d85b80559833a9eab2159e6c2f3bf732e216212461a3a7fc0cc731ed"
+    },
+    {
+      "source": "skills/knowledge-revision/SKILL.md",
+      "source_sha256": "c264a0592aa09e14f1e6ac5a77f06c9552f397bbeffeedcebaaaf2be6cf7c651",
+      "destination": "skills/knowledge-revision/SKILL.md",
+      "published_sha256": "c264a0592aa09e14f1e6ac5a77f06c9552f397bbeffeedcebaaaf2be6cf7c651"
+    },
+    {
+      "source": "skills/ticket-resolution/SKILL.md",
+      "source_sha256": "696f818449a420cccfdc07877df0c94d8328a1a4d107e69a51c6e31719737633",
+      "destination": "skills/ticket-resolution/SKILL.md",
+      "published_sha256": "696f818449a420cccfdc07877df0c94d8328a1a4d107e69a51c6e31719737633"
+    },
+    {
+      "source": "skills/interrupted-operation/SKILL.md",
+      "source_sha256": "7fc1a6e58ffe68212cb84530b331e71e06e00e4670980e8adcd94b832c0ccef9",
+      "destination": "skills/interrupted-operation/SKILL.md",
+      "published_sha256": "7fc1a6e58ffe68212cb84530b331e71e06e00e4670980e8adcd94b832c0ccef9"
+    }
+  ],
+  "changes": [
+    "Mechanical Python namespace replacement outcomes -> caseflow_agent",
+    "Project-specific CLI and minimal dependencies",
+    "Selected upstream assets and licenses",
+    "Numeric/state historical evidence export with normalized local paths",
+    "New installation, reproduction, scope and regression CI documentation"
+  ],
+  "original_measurement_scope": "New personal engineering, not historical employer deployment. No fresh model experiment performed by this packaging script.",
+  "standalone_source_sha256": {
+    "src/caseflow_agent/__init__.py": "28ba10bcc4c88dcd5b990f406b750d280561e022c9aade88ad67e40c94dfdd95",
+    "src/caseflow_agent/agent_loop.py": "4f1e3f5461fa9093c550dcaa26eac78a087ee59258309aecebc1bd5607465635",
+    "src/caseflow_agent/caseflow.py": "8f82902279edc8e6649db5f3c4057f846cfcec615e1abe14aaac18985d081138",
+    "src/caseflow_agent/caseflow_backend.py": "178c691d090efda6fcffb07fbe6c24160468b59d23f51beb9fb82931212e735e",
+    "src/caseflow_agent/caseflow_eval.py": "1dbd85c88777cf8ac9dd82892e15266a2ccd07c613da72d35f5589c1aea14193",
+    "src/caseflow_agent/caseflow_fault_worker.py": "5bd39bdd56af1e3c9c567af5a6658b1e4b8cb1e1571accfdd64c65c7c219069d",
+    "src/caseflow_agent/caseflow_faults.py": "18807f3792bf2e04ca22a4bbe7abc8ad60909c28c06ef62703d15f29396622d8",
+    "src/caseflow_agent/caseflow_mcp.py": "478d68908ae0f249a6aaa8f79f8cb4d4e411200ff29bbeb2200cf2f564e11c66",
+    "src/caseflow_agent/caseflow_runtime.py": "4f2c1dd23d011f6aaf85d9a9f8ce4132a567b850b979008f9881e675560620e5",
+    "src/caseflow_agent/cli.py": "8920b12f1f3b66e79f1e153c9b12447d6770c457059b2248787ac855ebe8cc81",
+    "src/caseflow_agent/common.py": "1a83586a32e6b27d01bb12dd58e99a162c2009f01c90fb6308822356beb68165",
+    "src/caseflow_agent/model.py": "82ec7a0901449e200059529fff7a284363c52c94ba5462d75ff9ab139e4162cf"
+  }
+}

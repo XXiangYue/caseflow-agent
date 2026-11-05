@@ -1,0 +1,434 @@
+{
+  "main": {
+    "W0": {
+      "all_conditions_success": {
+        "num": 72,
+        "den": 72,
+        "value": 1.0
+      },
+      "actionable_success": {
+        "num": 42,
+        "den": 42,
+        "value": 1.0
+      },
+      "blocked_correct_handling": {
+        "num": 30,
+        "den": 30,
+        "value": 1.0
+      },
+      "blocked_state_preserved": {
+        "num": 30,
+        "den": 30,
+        "value": 1.0
+      },
+      "input_tokens": 2264905,
+      "output_tokens": 54425,
+      "cost_upper_bound_usd": 0.124267452,
+      "p95_ms": 14073.586374986917,
+      "tool_calls": 569,
+      "skill_loads": 1,
+      "by_family": {
+        "normal": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "clarification": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "approval": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "scope": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "version": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "retry": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        }
+      }
+    },
+    "W1": {
+      "all_conditions_success": {
+        "num": 72,
+        "den": 72,
+        "value": 1.0
+      },
+      "actionable_success": {
+        "num": 42,
+        "den": 42,
+        "value": 1.0
+      },
+      "blocked_correct_handling": {
+        "num": 30,
+        "den": 30,
+        "value": 1.0
+      },
+      "blocked_state_preserved": {
+        "num": 30,
+        "den": 30,
+        "value": 1.0
+      },
+      "input_tokens": 1592024,
+      "output_tokens": 51562,
+      "cost_upper_bound_usd": 0.11160576,
+      "p95_ms": 12436.051084194332,
+      "tool_calls": 553,
+      "skill_loads": 2,
+      "by_family": {
+        "normal": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "clarification": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "approval": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "scope": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "version": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "retry": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        }
+      }
+    },
+    "W2": {
+      "all_conditions_success": {
+        "num": 71,
+        "den": 72,
+        "value": 0.9861111111111112
+      },
+      "actionable_success": {
+        "num": 41,
+        "den": 42,
+        "value": 0.9761904761904762
+      },
+      "blocked_correct_handling": {
+        "num": 30,
+        "den": 30,
+        "value": 1.0
+      },
+      "blocked_state_preserved": {
+        "num": 30,
+        "den": 30,
+        "value": 1.0
+      },
+      "input_tokens": 1387457,
+      "output_tokens": 53641,
+      "cost_upper_bound_usd": 0.132547932,
+      "p95_ms": 12270.399916917086,
+      "tool_calls": 671,
+      "skill_loads": 155,
+      "by_family": {
+        "normal": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "clarification": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "approval": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "scope": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        },
+        "version": {
+          "num": 11,
+          "den": 12,
+          "value": 0.9166666666666666
+        },
+        "retry": {
+          "num": 12,
+          "den": 12,
+          "value": 1.0
+        }
+      }
+    }
+  },
+  "paired_W0_to_W1": {
+    "n": 72,
+    "paired_mcnemar_diagnostic": {
+      "b01": 0,
+      "b10": 0,
+      "n_discordant": 0,
+      "p_value": 1.0
+    },
+    "cluster_bootstrap": {
+      "diff": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "iters": 2000,
+      "seed": 20261101
+    },
+    "cluster_count": 6,
+    "scope": "Descriptive paired diagnostics for this custom sample; template/task dependence limits generalization; no hiring/production causal claim",
+    "improved": [],
+    "regressed": []
+  },
+  "paired_W1_to_W2": {
+    "n": 72,
+    "paired_mcnemar_diagnostic": {
+      "b01": 0,
+      "b10": 1,
+      "n_discordant": 1,
+      "p_value": 1.0
+    },
+    "cluster_bootstrap": {
+      "diff": -0.01388888888888884,
+      "ci": [
+        -0.041666666666666685,
+        0.0
+      ],
+      "iters": 2000,
+      "seed": 20261101
+    },
+    "cluster_count": 6,
+    "scope": "Descriptive paired diagnostics for this custom sample; template/task dependence limits generalization; no hiring/production causal claim",
+    "improved": [],
+    "regressed": [
+      "test-version-10"
+    ]
+  },
+  "stability": {
+    "W1": {
+      "all_three_success": {
+        "num": 12,
+        "den": 12,
+        "value": 1.0
+      },
+      "rows": [
+        {
+          "task": "test-approval-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-approval-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-clarification-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-clarification-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-normal-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-normal-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-retry-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-retry-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-scope-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-scope-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-version-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-version-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        }
+      ],
+      "definition": "All three observed runs succeeded; not pass@3 and not an independent probability guarantee"
+    },
+    "W2": {
+      "all_three_success": {
+        "num": 11,
+        "den": 12,
+        "value": 0.9166666666666666
+      },
+      "rows": [
+        {
+          "task": "test-approval-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-approval-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-clarification-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-clarification-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-normal-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-normal-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-retry-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-retry-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-scope-00",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-scope-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        },
+        {
+          "task": "test-version-00",
+          "successes": 2,
+          "runs": 3,
+          "all_three": false
+        },
+        {
+          "task": "test-version-01",
+          "successes": 3,
+          "runs": 3,
+          "all_three": true
+        }
+      ],
+      "definition": "All three observed runs succeeded; not pass@3 and not an independent probability guarantee"
+    }
+  },
+  "latency_splits": {
+    "W0": {
+      "actionable_all_attempts": {
+        "n": 42,
+        "p95_ms": 14116.141750011593
+      },
+      "successful_actionable": {
+        "n": 42,
+        "p95_ms": 14116.141750011593
+      }
+    },
+    "W1": {
+      "actionable_all_attempts": {
+        "n": 42,
+        "p95_ms": 12752.736082766205
+      },
+      "successful_actionable": {
+        "n": 42,
+        "p95_ms": 12752.736082766205
+      }
+    },
+    "W2": {
+      "actionable_all_attempts": {
+        "n": 42,
+        "p95_ms": 12649.998374748975
+      },
+      "successful_actionable": {
+        "n": 41,
+        "p95_ms": 12649.998374748975
+      }
+    }
+  },
+  "unknown_usage_by_arm": {
+    "W0": 0,
+    "W1": 0,
+    "W2": 0
+  },
+  "unknown_usage_calls": 0
+}

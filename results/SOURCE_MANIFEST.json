@@ -1,0 +1,32 @@
+{
+  "original_commit": "f6818662fdf4d845732545c34b63776a3960b694",
+  "measurement_date": "2026-11-01",
+  "export_date": "2026-11-05",
+  "original_files": [
+    {
+      "source": "evidence/P4/main_v2/trials.jsonl",
+      "sha256": "759d8a4f3f97e9a70b8c5703c733b0db054964dd8e988c9aed41a42b903690d0",
+      "bytes": 315899,
+      "published": "results/main_v2_trials.jsonl"
+    },
+    {
+      "source": "evidence/P4/main_v2/protocol.lock.json",
+      "sha256": "50274785ae3fb61309e7dc7964f7e385c00d9e1d8ac29350c0f4fcb4f7666df1",
+      "bytes": 38313,
+      "published": "results/main_v2_protocol.json"
+    },
+    {
+      "source": "evidence/P4/stability_v1/trials.jsonl",
+      "sha256": "6990511143a05fab8e708938bc8eea54046f94192eb7bbc7273d707c34d2a3d7",
+      "bytes": 70274,
+      "published": "results/stability_v1_trials.jsonl"
+    },
+    {
+      "source": "evidence/P4/stability_v1/protocol.lock.json",
+      "sha256": "4a45223ee4b54b78649d8ec5b7ad6e6d8b0191b38e57e497b2a6be0c70d54917",
+      "bytes": 7675,
+      "published": "results/stability_v1_protocol.json"
+    }
+  ],
+  "export_policy": "Numeric/state records and constructed fixtures only. Private local paths are normalized. Model transcripts, benchmark source text, databases, credentials and caches remain outside Git. All original local evidence is preserved."
+}

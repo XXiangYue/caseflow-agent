@@ -1,0 +1,29 @@
+{
+  "checked_on": "2026-11-05",
+  "kind": "Standalone packaging verification; not new model benchmarks",
+  "historical_measurement_date": "2026-11-01",
+  "tests_passed": 8,
+  "tests_scope": "Domain contracts and retained regression witnesses; mocked provider tests are explicitly fixtures",
+  "locked_environment_install": true,
+  "cli_help": true,
+  "historical_result_recomputation": true,
+  "new_inference_calls": 0,
+  "user_requested_original_results_reuse": true,
+  "source_module_imports": "All library modules import; intentional command-only fault workers are validated through their call sites",
+  "evidence_scope": "Historical measured rows and original source hashes; datasets, transcripts and database caches excluded",
+  "review_author": "Root packaging and documentation review, no new independent HR or performance assessment",
+  "mcp_service_smoke": {
+    "mcp_initialized": true,
+    "listed_tools": 12,
+    "actual_ticket_read": true,
+    "model_calls": 0
+  },
+  "service_contract_recheck": {
+    "passed": {
+      "num": 12,
+      "den": 12,
+      "value": 1.0
+    },
+    "scope": "Previously defined deterministic fault contracts; historical results not replaced"
+  }
+}

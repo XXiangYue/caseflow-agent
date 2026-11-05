@@ -1,0 +1,58 @@
+{
+  "coverage": {
+    "num": 12,
+    "den": 12,
+    "value": 1.0
+  },
+  "rows": [
+    {
+      "name": "concurrent_same_operation",
+      "passed": true
+    },
+    {
+      "name": "lost_response_restart",
+      "passed": true
+    },
+    {
+      "name": "process_exit_after_commit",
+      "passed": true
+    },
+    {
+      "name": "expired_before_write",
+      "passed": true
+    },
+    {
+      "name": "revoked_after_partial",
+      "passed": true
+    },
+    {
+      "name": "expired_after_partial",
+      "passed": true
+    },
+    {
+      "name": "approval_wrong_proposal",
+      "passed": true
+    },
+    {
+      "name": "same_operation_changed_payload",
+      "passed": true
+    },
+    {
+      "name": "scope_denied",
+      "passed": true
+    },
+    {
+      "name": "concurrent_version_before_commit",
+      "passed": true
+    },
+    {
+      "name": "newer_version_and_stale_index",
+      "passed": true
+    },
+    {
+      "name": "index_worker_restart",
+      "passed": true
+    }
+  ],
+  "limit": "Controlled deterministic fault witnesses, not measured field reliability. Index restart terminates and restarts the actual task-owned knowledge HTTP/worker process with a pending PostgreSQL job."
+}
