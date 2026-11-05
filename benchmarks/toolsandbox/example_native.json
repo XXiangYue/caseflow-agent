@@ -1,0 +1,14 @@
+{
+  "scores": {
+    "tickets.apply_operation": 0.78,
+    "operations.verify": 0.74,
+    "knowledge.apply_operation": 0.72,
+    "workflow.status": 0.7,
+    "operations.status": 0.69,
+    "knowledge.index_status": 0.67
+  },
+  "previous": {
+    "name": "knowledge.apply_operation",
+    "result": {"ready": false, "receipt": {"state": "index_pending"}}
+  }
+}

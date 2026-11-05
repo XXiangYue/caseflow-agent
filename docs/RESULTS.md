@@ -4,6 +4,8 @@ Raw tools and task tools each achieved 72/72 on the synthetic main sample (42 ac
 
 The workflow fixtures and approval/user simulator are synthetic. On-demand Skills achieved 71/72 and a higher cost upper bound; W1 task tools plus full SOP is the default. Per-service idempotency does not promise distributed rollback or exactly-once arbitrary effects.
 
+For the separate paired public benchmark with a fixed top-five tool budget, see [ToolSandbox results](TOOL_SANDBOX.md). The 72 synthetic tickets above use the original full catalogs.
+
 ## Evidence and reproduction
 
 The original commit is `f6818662fdf4d845732545c34b63776a3960b694`. The measurement date is 2026-11-01.

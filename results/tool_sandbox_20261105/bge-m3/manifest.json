@@ -1,0 +1,326 @@
+[
+  {
+    "task": "add_reminder_content_and_date_and_time",
+    "family": "add_reminder_content_and_date_and_time",
+    "split": "dev",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "add_reminder_content_and_date_and_time_alt",
+    "family": "add_reminder_content_and_date_and_time",
+    "split": "dev",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "add_reminder_content_and_week_delta_and_time",
+    "family": "add_reminder_content_and_week_delta_and_time",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "add_reminder_content_and_week_delta_and_time_alt",
+    "family": "add_reminder_content_and_week_delta_and_time",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "add_reminder_content_and_week_delta_and_time_and_location",
+    "family": "add_reminder_content_and_week_delta_and_time_and_location",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "add_reminder_content_and_week_delta_and_time_and_location_alt",
+    "family": "add_reminder_content_and_week_delta_and_time_and_location",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "add_reminder_content_and_weekday_delta_and_time",
+    "family": "add_reminder_content_and_weekday_delta_and_time",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "add_reminder_content_and_weekday_delta_and_time_alt",
+    "family": "add_reminder_content_and_weekday_delta_and_time",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "find_current_city_low_battery_mode",
+    "family": "find_current_city_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_current_city_low_battery_mode_alt",
+    "family": "find_current_city_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_days_till_holiday",
+    "family": "find_days_till_holiday",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "find_days_till_holiday_alt",
+    "family": "find_days_till_holiday",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "find_days_till_holiday_wifi_off",
+    "family": "find_days_till_holiday",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "find_days_till_holiday_wifi_off_alt",
+    "family": "find_days_till_holiday",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "find_distance_with_location_name",
+    "family": "find_distance_with_location_name",
+    "split": "dev",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_distance_with_location_name_alt",
+    "family": "find_distance_with_location_name",
+    "split": "dev",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_stock_symbol_with_company_name_low_battery_mode",
+    "family": "find_stock_symbol_with_company_name_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_stock_symbol_with_company_name_low_battery_mode_alt",
+    "family": "find_stock_symbol_with_company_name_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_temperature_f_with_location",
+    "family": "find_temperature_f_with_location",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_temperature_f_with_location_alt",
+    "family": "find_temperature_f_with_location",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_temperature_f_with_location_wifi_off",
+    "family": "find_temperature_f_with_location",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_temperature_f_with_location_wifi_off_alt",
+    "family": "find_temperature_f_with_location",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_temperature_low_battery_mode",
+    "family": "find_temperature_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "find_temperature_low_battery_mode_alt",
+    "family": "find_temperature_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": true
+  },
+  {
+    "task": "modify_contact_with_message_recency",
+    "family": "modify_contact_with_message_recency",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "modify_contact_with_message_recency_alt",
+    "family": "modify_contact_with_message_recency",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "modify_reminder_with_recency_latest",
+    "family": "modify_reminder_with_recency_latest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "modify_reminder_with_recency_latest_alt",
+    "family": "modify_reminder_with_recency_latest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "remove_contact_by_phone",
+    "family": "remove_contact_by_phone",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "remove_contact_by_phone_alt",
+    "family": "remove_contact_by_phone",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "remove_contact_by_phone_ambiguous",
+    "family": "remove_contact_by_phone",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "remove_contact_by_phone_ambiguous_alt",
+    "family": "remove_contact_by_phone",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "remove_reminder_with_recency_latest",
+    "family": "remove_reminder_with_recency_latest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "remove_reminder_with_recency_latest_alt",
+    "family": "remove_reminder_with_recency_latest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_message_with_recency_latest",
+    "family": "search_message_with_recency_latest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_message_with_recency_latest_alt",
+    "family": "search_message_with_recency_latest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_message_with_recency_oldest",
+    "family": "search_message_with_recency_oldest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_message_with_recency_oldest_alt",
+    "family": "search_message_with_recency_oldest",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_reminder_with_creation_recency_yesterday",
+    "family": "search_reminder_with_creation_recency_yesterday",
+    "split": "dev",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_reminder_with_creation_recency_yesterday_implicit",
+    "family": "search_reminder_with_creation_recency_yesterday",
+    "split": "dev",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_reminder_with_recency_upcoming",
+    "family": "search_reminder_with_recency_upcoming",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_reminder_with_recency_upcoming_implicit",
+    "family": "search_reminder_with_recency_upcoming",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_reminder_with_recency_yesterday",
+    "family": "search_reminder_with_recency_yesterday",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "search_reminder_with_recency_yesterday_implicit",
+    "family": "search_reminder_with_recency_yesterday",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "send_message_with_contact_content_cellular_off",
+    "family": "send_message_with_contact_content_cellular_off",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "send_message_with_contact_content_cellular_off_alt",
+    "family": "send_message_with_contact_content_cellular_off",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "turn_on_cellular_low_battery_mode",
+    "family": "turn_on_cellular_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "turn_on_cellular_low_battery_mode_implicit",
+    "family": "turn_on_cellular_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "turn_on_location_low_battery_mode",
+    "family": "turn_on_location_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "turn_on_location_low_battery_mode_implicit",
+    "family": "turn_on_location_low_battery_mode",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "turn_on_wifi_low_battery_mode",
+    "family": "turn_on_wifi_low_battery_mode",
+    "split": "dev",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "turn_on_wifi_low_battery_mode_implicit",
+    "family": "turn_on_wifi_low_battery_mode",
+    "split": "dev",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "update_contact_relationship_with_relationship",
+    "family": "update_contact_relationship_with_relationship",
+    "split": "test",
+    "excluded_remote_task": false
+  },
+  {
+    "task": "update_contact_relationship_with_relationship_alt",
+    "family": "update_contact_relationship_with_relationship",
+    "split": "test",
+    "excluded_remote_task": false
+  }
+]

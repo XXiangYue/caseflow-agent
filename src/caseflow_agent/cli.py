@@ -6,11 +6,17 @@ def output(v): print(json.dumps(v,ensure_ascii=False,indent=2))
 def main():
     p=argparse.ArgumentParser(prog='caseflow')
     sub=p.add_subparsers(dest='command',required=True)
+    ranking=sub.add_parser('rank-tools',help='Rank available MCP tools from dense scores and the last observed result')
+    ranking.add_argument('input',type=Path,help='JSON with scores and optional previous tool response')
     sub.add_parser('results',help='Read the measured summary without API calls')
     e=sub.add_parser('demo');e.add_argument('--family',choices=['normal','clarification','approval','scope','version','retry'],default='retry');e.add_argument('--blocked',action='store_true');e.add_argument('--arm',choices=['W0','W1','W2'],default='W1');e.add_argument('--out',type=Path,required=True)
     e=sub.add_parser('evaluate');e.add_argument('--out',type=Path,required=True);e.add_argument('--split',choices=['dev','test'],default='test');e.add_argument('--workers',type=int,default=1)
     e=sub.add_parser('faults');e.add_argument('--out',type=Path,required=True)
     a=p.parse_args()
+    if a.command=='rank-tools':
+        from .state_rank import native_candidates
+        sample=json.loads(a.input.read_text())
+        output({"candidates":native_candidates(sample["scores"],sample.get("previous"))});return
     if a.command in ('run', 'demo') and (a.out/'trial.json').exists():
         old=json.loads((a.out/'trial.json').read_text())
         expected_task=a.task if a.command=='run' else None

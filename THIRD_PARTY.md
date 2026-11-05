@@ -12,3 +12,5 @@ CaseFlow directly reuses Notebook's models and Markdown chunking from [XXiangYue
 
 Third-party files retain their original license notices. This packaging operation
 does not assign a new blanket license to the author's original portfolio code.
+
+The ToolSandbox extension downloads the separately licensed [Apple ToolSandbox source](https://github.com/apple/ToolSandbox/blob/c8571d7854316d2e1c5f288e59fe1e34e53f6dd1/LICENSE). Tool-Embed-4B uses [the author's published checkpoint](https://huggingface.co/Lux1997/Tool-Embed-4B). The supplemental BGE-M3 embeddings use [the BAAI model](https://huggingface.co/BAAI/bge-m3). This repository publishes independently written adapters, aggregate results, compact numerical/state receipts and task IDs; obtain the simulator and model weights from their original sources.

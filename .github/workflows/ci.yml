@@ -13,4 +13,10 @@ jobs:
       - run: uv sync --locked
       - run: uv run pytest -q
       - run: uv run python scripts/verify_results.py
+      - name: Recompute public tool-retrieval outcomes
+        shell: bash
+        run: |
+          for summary in results/tool_sandbox_20261105/*/summary.json; do
+            uv run python benchmarks/toolsandbox/score.py --verify "$(dirname "$summary")"
+          done
       - run: uv run caseflow --help

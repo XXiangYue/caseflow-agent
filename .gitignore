@@ -17,3 +17,8 @@ data/cache/
 *.db
 *.log
 .DS_Store
+
+# Fresh benchmark inference logs and temporary transport files
+*.private.jsonl
+*.error
+*.part

@@ -1,0 +1,22 @@
+# Minimal offline execution, official scorer and existing CaseFlow actor adapter.
+# ToolSandbox packages are separate from the Python 3.12 production MCP service.
+attrs==26.1.0
+ccy==1.3.1
+decorator==5.1.1
+dill==0.3.8
+geopy==2.4.1
+holidays==0.51
+langchain-core==0.1.53
+networkx==3.2.1
+numpy==1.26.4
+openai==1.17.0
+phonenumbers==8.13.39
+pint==0.23
+pydantic==2.14.3
+polars==0.20.31
+rapidfuzz==3.9.3
+rouge-score==0.1.2
+scipy==1.13.1
+StrEnum==0.4.15
+httpx==0.28.1
+tiktoken==0.14.0

@@ -1,0 +1,13 @@
+{
+  "model": "deepseek-flash (service alias, temperature 0)",
+  "policy": "Development only before held-out outcome inspection. Keep trials, task-matched controls, failures and incomplete arms. Never impute missing measurements. Count unsuccessful attempts in cost. No extra spending after a per-arm bound; report denominator. Labels are scoring-only. Historical November 1 results separate.",
+  "source": "ToolSandbox c8571d7854316d2e1c5f288e59fe1e34e53f6dd1; Tool-Embed-4B 0ff726361463e980dbd3aca1904daf304b0ea994",
+  "arms": [
+    "Tool-Embed-4B",
+    "same retriever + observed state reranking"
+  ],
+  "split": "offline local multi-tool, all_tools distractor variant; group by underlying template including alt/implicit variants. Split by base family SHA256 mod 5 (0 = dev); published 72 local tickets separately",
+  "measure": "stateful task pass, wrong side effects, shown schema tokens per attempt, paired interval",
+  "guard": "maximum 5 candidate schemas; same actor and tools, no reference action sequence; same step limits; require more completed and no increased unsafe actions",
+  "budget": "20 model turns, <=800 output tokens each, 10 USD per arm; note numerical representation used"
+}

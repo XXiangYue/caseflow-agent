@@ -8,7 +8,7 @@ Raw tools and task tools each achieved 72/72 on the synthetic main sample (42 ac
 
 **Scope and negative findings:** The workflow fixtures and approval/user simulator are synthetic. On-demand Skills achieved 71/72 and a higher cost upper bound; W1 task tools plus full SOP is the default. Per-service idempotency does not promise distributed rollback or exactly-once arbitrary effects.
 
-Measurements were made on **2026-11-01** in the original integrated workspace.
+The ticket measurements above were made on **2026-11-01** in the original integrated workspace.
 The standalone packaging was prepared on **2026-11-05**. Packaging checks are
 reported separately in `VALIDATION.json`; they are not new model benchmark runs.
 
@@ -61,3 +61,9 @@ workplace material are not included. Original code has no newly assigned blanket
 license in this packaging operation; vendored components retain their licenses.
 
 First-use tiktoken may fetch public tokenizer data once; contract tests do not call inference providers.
+
+## Stateful tool retrieval on public tasks
+
+A separate benchmark holds the dense retriever, actor and five-tool limit fixed while changing the ranking after the most recent tool response. Thirty-four held-out ToolSandbox requests include 24 with an independently checkable terminal database state. The measurement reports gained and lost tasks, unrelated database writes and the schema-token cost of every attempt. See [method and reproduction](docs/TOOL_SANDBOX.md) and [numeric receipts](results/tool_sandbox_20261105/).
+
+With the original BF16 Tool-Embed-4B and the same five-tool limit, both strategies passed **the same 16 of 24** terminal-state tasks. Across all 34 held-out attempts, tool-schema use fell from **4,278 to 3,115 tokens per task (27.2%)**. Identical repeated successful writes fell from **47 to one**, concentrated in three reminder requests that still failed their end-state requirements. In the auxiliary BGE-M3 comparison terminal passes went from 13 to 14, while schema use rose. See [paired results and limits](docs/TOOL_SANDBOX.md#held-out-results).
